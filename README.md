@@ -1,2 +1,2 @@
-# DSA
-Data Structure and Algorithm Libraries in the Go programming Language
+# go-ml
+Implementations of Machine Learning Algorithms in Go
