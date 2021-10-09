@@ -1,11 +1,8 @@
 package supervised
 
-import "fmt"
-
 // SimpleLinearRegression calculates the dependent var given independent var
 func SimpleLinearRegression(x, thetaOne, thetaZero float32) (yHat float32) {
 	yHat = thetaZero + (thetaOne*x)
-	fmt.Println(yHat)
 	return yHat
 }
 
