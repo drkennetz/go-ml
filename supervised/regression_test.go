@@ -33,8 +33,11 @@ func TestBestFitParameters(t *testing.T) {
 	th1, th0 := BestFitParameters(&x1, &y)
 	res1 := fmt.Sprintf("%.2f", th1)
 	res2 := fmt.Sprintf("%.2f", th0)
-	if (res1 != "43.98") && (res2 != "125.74") {
-		t.Error(res1, res2)
+	if res1 != "43.98" {
+		t.Error(res1)
+	}
+	if res2 != "92.80" {
+		t.Error(res2)
 	}
 }
 
